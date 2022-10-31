@@ -1,8 +1,11 @@
 doctype html
 html(lang="en")
   head
-    title Speed4Courier
-    meta(content="We can move anything for you from a small packet to multiple pallets." name="description")
+    title= data.site.meta.title
+    meta(
+      content= data.site.meta.description
+      name='description'
+    ) 
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     //- this checks to see the the "embed" property is set to "true"
     //- in the package.json file
@@ -10,7 +13,6 @@ html(lang="en")
       link(rel="stylesheet" href=`${embedPath}` embed)
   body
     .content
-      include ../top-menu/top-menu
       block awesome-content
     //- The style.css is at the bottom so it doesn't
     //- block the loading of assets
