@@ -1,0 +1,6 @@
+nav.menu 
+  each goTo in data.site.content.contentKeyList 
+    a.menu__link(
+      href=`#${goTo}`
+      title=`click me now and bla bla bla: ${goTo}`
+    )= goTo

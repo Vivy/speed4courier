@@ -1,0 +1,14 @@
+-
+  var { meta, content} = data.site 
+  var metaTitle = meta.title
+  var metaDescription = meta.description
+
+#home
+.home 
+  h1= metaTitle 
+  p= metaDescription 
+
+
+  h2= content.home.title 
+  each contentParagraph in content.home.description 
+    p= contentParagraph

@@ -1,20 +1,57 @@
-* {
+// Link to Font
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Secular+One&display=swap");
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+  margin: 0;
 }
 
 html,
 body {
   height: 100%;
-  margin: 0;
-  padding: 0;
+}
+
+html {
+  font-size: 10px;
 }
 
 body {
   // background-image: url(#{$baseUrl}asset/image/become-a-web-developer-today.jpg);
   // background-size: cover;
-  font: 14px -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial,
-    Helvetica, Geneva, sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Secular One", sans-serif;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .content {
+}
+
+%h-common {
+  line-height: 4rem;
+  padding: 1.5rem 0;
+}
+
+h1 {
+  font-size: 3.6rem;
+
+  @extend %h-common;
+}
+h2 {
+  font-size: 3.2rem;
+
+  @extend %h-common;
+}
+h3 {
+  font-size: 2.8rem;
+
+  @extend %h-common;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  padding: 1rem 0;
 }
