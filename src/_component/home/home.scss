@@ -13,8 +13,18 @@
   }
 
   &__header {
-    display: inline-block;
+    display: inline-flex;
     align-self: center;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+  }
+
+  &__button {
+    width: 200px;
+    line-height: 35px;
+    border: 1px solid gray;
+    border-radius: 45px;
     justify-self: center;
   }
 }
