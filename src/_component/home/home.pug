@@ -8,13 +8,35 @@
   header.home__header
     h1.home__title= metaTitle
     p.home__title= metaDescription
-  button.home__button Get a quote 
+  input.home__radio(
+    id='get-a-quote'
+    name='hit-me'
+    type='radio'
+    checked
+  )
+  input.home__radio(
+    id='request-a-callback'
+    name='hit-me'
+    type='radio'
+  )
+  label.home__button(
+    for='get-a-quote'
+  ) Get a quote
+  label.home__button(
+    for='request-a-callback'
+  ) Request a callback
 
   .home__form(
     data-tf-widget="V1JRDgaa"
     data-tf-iframe-props="title=Request a callback" 
     data-tf-medium="snippet" 
     style="width:100%;height:100%;"
+  )
+  .home__form(
+    data-tf-popup="p4j1eU4x" 
+    data-tf-iframe-props="title=Get a Quote" 
+    data-tf-medium="snippet" 
+    style="all:unset;font-family:Helvetica,Arial,sans-serif;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background-color:#0445AF;color:#FFFFFF;font-size:20px;border-radius:25px;padding:0 33px;font-weight:bold;height:50px;cursor:pointer;line-height:50px;text-align:center;margin:0;text-decoration:none;"
   )
 script(src="//embed.typeform.com/next/embed.js")
 

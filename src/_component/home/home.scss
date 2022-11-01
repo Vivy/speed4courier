@@ -6,6 +6,9 @@
   padding: 50px;
   gap: 10px;
   align-items: center;
+  background-image: url("/asset/image/bgcimg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 
   &__form {
     grid-column: 2/3;
@@ -21,10 +24,34 @@
   }
 
   &__button {
+    display: flex;
     width: 200px;
+    background-color: rgb(227, 148, 227);
     line-height: 35px;
     border: 1px solid gray;
     border-radius: 45px;
     justify-self: center;
+    justify-content: center;
+  }
+
+  &__radio {
+    display: none;
+  }
+  &__radio[id="request-a-callback"]:checked
+    ~ .home__button[for="request-a-callback"] {
+    display: none;
+  }
+
+  &__radio[id="get-a-quote"]:checked ~ .home__button[for="get-a-quote"] {
+    display: none;
+  }
+
+  }
+  &__radio[id="get-a-quote"]:checked ~ .home__form[title="get-a-quote"] {
+    display: none;
+  }
+  &__radio[id="request-a-callback"]:checked
+    ~ .home__form[title="request-a-callback"] {
+    display: none;
   }
 }
