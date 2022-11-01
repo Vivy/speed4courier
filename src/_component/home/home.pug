@@ -5,8 +5,18 @@
 
 #home
 .home 
-  h1= metaTitle 
-  p= metaDescription 
+  header.home__header
+    h1.home__title= metaTitle
+    p.home__title= metaDescription
+  button.home__button Get a quote 
+
+  .home__form(
+    data-tf-widget="p4j1eU4x"
+    data-tf-iframe-props="title=Get a Quote" 
+    data-tf-medium="snippet" 
+    style="width:100%;height:100%;"
+  )
+script(src="//embed.typeform.com/next/embed.js")
 
 
   h2= content.home.title 
