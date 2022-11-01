@@ -6,13 +6,18 @@ html(lang="en")
       content= data.site.meta.description
       name="description"
     ) 
+
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
+
     if config.entry.css.embed
       link(rel="stylesheet" href=`${embedPath}` embed)
+
   body
     .content
+
       block awesome-content
+
     if config.entry.css.external
       link(rel="stylesheet", href=`${baseUrl}style.css`)
 
- 
+
