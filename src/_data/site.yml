@@ -6,7 +6,7 @@ content:
   contentKeyList:
     - home
     - about
-    - our-fleet
+    - fleet
     - services
   home:
     title: Speed4Couriers
