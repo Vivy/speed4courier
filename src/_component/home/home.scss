@@ -6,9 +6,10 @@
   padding: 50px;
   gap: 10px;
   align-items: center;
-  background-image: url("/asset/image/bgcimg.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: yellow;
+  // background-image: url("/asset/image/bgcimg.jpeg");
+  // background-repeat: no-repeat;
+  // background-size: cover;
 
   &__form {
     grid-column: 2/3;
@@ -21,6 +22,7 @@
     flex-direction: column;
     justify-self: center;
     align-items: center;
+    color: red;
   }
 
   &__button {
@@ -38,15 +40,16 @@
     display: none;
   }
 
-  &__radio[id="get-a-quote"]:checked ~ .home__button[for="get-a-quote"],
-  &__radio[id="get-a-quote"]:checked ~ .home__form[data-tf-widget="V1JRDgaa"] {
-    opacity: 0;
+  &__radio[id="get-a-quote"]:checked ~ .home__button[href="quote"] {
+    // opacity: 0;
   }
 
-  &__radio[id="request-a-callback"]:checked
-    ~ .home__button[for="request-a-callback"],
-  &__radio[id="request-a-callback"]:checked
-    ~ .home__form[data-tf-popup="p4j1eU4x"] {
-    opacity: 0;
-  }
+  // &__radio[id="request-a-callback"]:checked ~ .home__button[href="/"],
+  // &__radio[id="request-a-callback"]:checked
+  //   ~ .home__form[data-tf-popup="p4j1eU4x"] {
+  //   opacity: 0;
+  // }
 }
+
+// ,
+// &__radio[id="get-a-quote"]:checked ~ .home__form[data-tf-widget="V1JRDgaa"]
