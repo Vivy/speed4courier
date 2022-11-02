@@ -1,14 +1,18 @@
 .services {
-  background-color: #4caf50;
-  padding: 16px;
-  font-size: 16px;
-  color: red;
-  margin: 14px;
-  transition-duration: 0.4s;
-}
-
-.services:hover {
-  color: black;
   background-color: yellow;
-  cursor: pointer;
+
+  &__menu {
+    background-color: #4caf50;
+    padding: 16px;
+    font-size: 16px;
+    color: red;
+    margin: 14px;
+    transition-duration: 0.4s;
+  }
+
+  &_menu:hover {
+    color: black;
+    background-color: yellow;
+    cursor: pointer;
+  }
 }
