@@ -36,21 +36,4 @@
     text-decoration: none;
     justify-content: center;
   }
-
-  &__radio {
-    display: none;
-  }
-
-  &__radio[id="get-a-quote"]:checked ~ .home__button[href="#quote"] {
-    // opacity: 0;
-  }
-
-  // &__radio[id="request-a-callback"]:checked ~ .home__button[href="/"],
-  // &__radio[id="request-a-callback"]:checked
-  //   ~ .home__form[data-tf-popup="p4j1eU4x"] {
-  //   opacity: 0;
-  // }
 }
-
-// ,
-// &__radio[id="get-a-quote"]:checked ~ .home__form[data-tf-widget="V1JRDgaa"]
