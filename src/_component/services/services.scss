@@ -1,16 +1,16 @@
 .services {
   background-color: yellow;
+  box-sizing: border-box;
+}
 
-  &__menu {
-    background-color: #4caf50;
-    padding: 16px;
-    font-size: 16px;
-    color: red;
-    margin: 14px;
-    transition-duration: 0.4s;
-  }
+.nav {
+  background-color: #4caf50;
+  color: red;
+  margin: 14px;
+  transition-duration: 0.4s;
+  font-size: large;
 
-  &_menu:hover {
+  &:hover {
     color: black;
     background-color: yellow;
     cursor: pointer;
