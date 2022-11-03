@@ -6,6 +6,9 @@
   padding: 50px;
   // gap: 10px;
   align-items: center;
+  background-image: url("/asset/image/road1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 
   &__form {
     grid-column: 2/3;
@@ -24,5 +27,7 @@
   &__titlu {
     grid-column: 2/3;
     grid-row: 1/2;
+    display: flex;
+    justify-content: space-around;
   }
 }
