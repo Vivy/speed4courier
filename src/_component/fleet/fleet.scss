@@ -3,15 +3,41 @@
   justify-content: space-evenly;
   justify-items: center;
   background-color: azure;
-  &__row1 {
-    display: flex;
-    padding-top: 40px;
-    padding-bottom: 0px;
-    background-position: 50%;
-  }
 
-  &__row1 > p {
+  &__row1,
+  &__row2,
+  &__row3,
+  &__row4 {
+    display: flex;
+    // padding-top: 40px;
+    // padding-bottom: 0px;
+    // background-position: 50%;
+  }
+  // &__img {
+  //   margin-bottom: 50%;
+  // }
+  &__text {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    padding: 20px;
   }
+  &__anchor {
+    display: flex;
+    border: 1px solid green;
+    width: 100px;
+    line-height: 20px;
+    border-radius: 35px;
+    justify-content: center;
+    text-decoration: none;
+    background-color: green;
+    margin-inline: auto;
+  }
+}
+
+.item1 {
+  padding: 10px;
+}
+.item2 {
+  padding: 10px;
 }
