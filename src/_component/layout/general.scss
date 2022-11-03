@@ -16,6 +16,7 @@ body,
 
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -29,6 +30,14 @@ body {
 }
 
 .content {
+  // display: flex;
+  // top: 0;
+  // left: 0;
+  // transition: 250ms;
+  // position: fixed;
+  // width: 300vw;
+  // height: 100vh;
+  // overflow: hidden;
 }
 
 %h-common {

@@ -1,13 +1,15 @@
+//- - var id = ['carousel-craft']
+//- - var urlname = [{n:114},{n:745},{n:315},{n:622},{n:401}]
+
 #about 
 .about  
   h2= content.about.title 
   each contentParagraph in content.about.description 
     p= contentParagraph
+    //- img(src="/asset/image/courier.jpeg", alt="")
 
   h2 Our Customers! 
 
-//- - var id = ['carousel-craft']
-//- - var urlname = [{n:114},{n:745},{n:315},{n:622},{n:401}]
 
 
 //- .container
@@ -15,30 +17,30 @@
 //-   #carousel-craft.carousel.slide(data-ride="carousel")
 //-     <!-- Indicators -->
 //-     ol.carousel-indicators
-      //- - var i = 0
-      //-   while (i++<5)
-      //-     if i == 1
-      //-       li(data-target="#"+id data-slide-to=""+i class="active")
-      //-     else
-      //-       li(data-targe="#"+id data-slide-to=""+i)
+//-       - var i = 0
+//-         while (i++<5)
+//-           if i == 1
+//-             li(data-target="#"+id data-slide-to=""+i class="active")
+//-           else
+//-             li(data-targe="#"+id data-slide-to=""+i)
             
-    //- <!-- Wrapper for slides -->
-    //- .carousel-inner(role="listbox")
-    //-     each val in urlname
-    //-       if val.n == 114
-    //-         .item(class="active")
-    //-           img(src="https://unsplash.it/1400/600?image="+val.n)
-    //-       else
-    //-         .item
-    //-           img(src='https://unsplash.it/1400/600?image='+val.n)
-    //- <!-- Controls -->
-    //- a.left.carousel-control(href="#"+id role="button" data-slide="prev")
-    //-   span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
-    //-   span.sr-only Previous
+//-     <!-- Wrapper for slides -->
+//-     .carousel-inner(role="listbox")
+//-         each val in urlname
+//-           if val.n == 114
+//-             .item(class="active")
+//-               img(src="https://unsplash.it/1400/600?image="+val.n)
+//-           else
+//-             .item
+//-               img(src='https://unsplash.it/1400/600?image='+val.n)
+//-     <!-- Controls -->
+//-     a.left.carousel-control(href="#"+id role="button" data-slide="prev")
+//-       span.glyphicon.glyphicon-chevron-left(aria-hidden="true")
+//-       span.sr-only Previous
       
-    //- a.right.carousel-control(href="#"+id role="button" data-slide="next")
-    //-   span.glyphicon.glyphicon-chevron-right(aria-hidden="true")
-    //-   span.sr-only Next
+//-     a.right.carousel-control(href="#"+id role="button" data-slide="next")
+//-       span.glyphicon.glyphicon-chevron-right(aria-hidden="true")
+//-       span.sr-only Next
 
 
 //- //- carousel caption
