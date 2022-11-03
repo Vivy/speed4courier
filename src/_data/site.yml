@@ -4,19 +4,19 @@ meta:
   description: Salut
 form:
   top:
-    formTitle: Get a Quote
-    goTo:
-      label: Request a Callback
-      id: p4j1eU4x
+    formTitle: Speed4Courier
     formID: V1JRDgaa
-    formDescription: We can move anything for you, from a small packet to multiple pallets.
-  bottom:
-    formTitle: Request a Callback
-    formID: p4j1eU4x
     goTo:
       label: Get a Quote
+      id: p4j1eU4x
+    formDescription: We can move anything for you, from a small packet to multiple pallets.
+  bottom:
+    formTitle: Same Day Couriers
+    formID: p4j1eU4x
+    goTo:
+      label: Request a Callback
       id: V1JRDgaa
-    formDescription: We are a friendly and helpful same day courier company with vehicles across the country available to collect within the hour of your call.
+    formDescription: Get a fast and reliable same-day courier service
 content:
   contentKeyList:
     - home
@@ -36,3 +36,66 @@ content:
   fleet:
     title: Please choose what vehicle size you need
     description: We also specialise in the movement of high value and fragile goods.
+    vehicle:
+      - title: Small Van (SV)
+        length: 120cm
+        width: 100cm
+        height: 100cm
+        payload: 450kg
+        description: Carries 1 Standard UK Pallet
+
+      - title: Short Wheel Based Van (SWB)
+        length: 240cm
+        width: 100cm
+        height: 120cm
+        payload: 800kg
+        description: Carries 2 Standard UK Pallets
+
+      - title: Long Wheel Based Van (LWB)
+        length: 340cm
+        width: 120cm
+        height: 180cm
+        payload: 1200kg
+        description: Carries 3 Standard UK Pallets
+
+      - title: Extra-Long Wheel Based Van (XLWB)
+        length: 420cm
+        width: 120cm
+        height: 180cm
+        payload: 1000kg
+        description: Carries 4 Standard UK Pallets
+
+      - title: Luton Van
+        length: 400cm
+        width: 200cm
+        height: 200cm
+        payload: 1000kg
+        description: Carries 6 Standard UK Pallets Box, Curtain and Tail Lift Options Available
+
+      - title: 7.5 Tonne (7.5T)
+        length: 240cm
+        width: 100cm
+        height: 120cm
+        payload: 800kg
+        description: Carries 2 Standard UK Pallets
+
+      - title: 18 Tonne (18T)
+        length: 700cm
+        width: 240cm
+        height: 250cm
+        payload: 9000kg
+        description: Carries 14 Standard UK Pallets Box, Curtain and Tail Lift Options Available
+
+      - title: 26 Tonne (26T)
+        length: 800cm
+        width: 240cm
+        height: 250cm
+        payload: 15000kg
+        description: Carries 16 Standard UK Pallets Box, Curtain and Tail Lift Options Available
+
+      - title: Artic
+        length: 1360cm
+        width: 250cm
+        height: 260cm
+        payload: 26000kg
+        description: Carries 26 Standard UK Pallets Box,Curtain and Tail Lift Options Available

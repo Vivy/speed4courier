@@ -1,21 +1,20 @@
 extends _component/layout/base
+include _component/quote/quote
 
 block awesome-content
 
   //- include _component/menu/menu-top
-  - var { formTitle, formID, goTo, formDescription } = data.site.form.top
+  +quote( data.site.form.top )
 
-  include _component/quote/quote
+  
 
-  //- include _component/home/home
   include _component/fleet/fleet
   include _component/services/services
   include _component/about/about
 
-  - var { formTitle, formID, goTo, formDescription } = data.site.form.bottom
-
-  include _component/quote/quote
+  +quote( data.site.form.bottom )
 
 
-  include _component/menu/menu-bottom
+
+  //- include _component/menu/menu-bottom
 

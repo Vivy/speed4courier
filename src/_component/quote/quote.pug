@@ -1,18 +1,20 @@
-.quote(
-  id= formID
-)
-  header.quote__header
-    h2.quote__title= formTitle 
-    p.quote__title= formDescription
-
-  a.home__button(
-    href= `/#${goTo.id}`
-  )= goTo.label
-  
-  .quote__form(
-    data-tf-widget= formID
-    data-tf-iframe-props= formTitle 
-    data-tf-medium="snippet" 
-    style="width:100%;height:100%;"
+mixin quote( config )
+  - var { formTitle, formID, goTo, formDescription } = config
+  .quote(
+    id= formID
   )
-script(src="//embed.typeform.com/next/embed.js")
+    header.quote__header
+      h2.quote__title= formTitle 
+      p.quote__title= formDescription
+
+    a.home__button(
+      href= `/#${goTo.id}`
+    )= goTo.label
+    
+    .quote__form(
+      data-tf-widget= formID
+      data-tf-iframe-props= formTitle 
+      data-tf-medium="snippet" 
+      style="width:100%;height:100%;"
+    )
+  script(src="//embed.typeform.com/next/embed.js")
