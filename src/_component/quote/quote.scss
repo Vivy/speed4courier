@@ -1,7 +1,7 @@
 .quote {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   height: 100%;
   padding: 50px;
   // gap: 10px;
@@ -9,7 +9,7 @@
 
   &__form {
     grid-column: 2/3;
-    grid-row: 1/3;
+    grid-row: 2/4;
   }
 
   &__header {
@@ -19,5 +19,10 @@
     flex-direction: column;
     align-items: center;
     color: red;
+  }
+
+  &__titlu {
+    grid-column: 2/3;
+    grid-row: 1/2;
   }
 }
