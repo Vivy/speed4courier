@@ -3,8 +3,8 @@
 
 #about 
 .about  
-  h2= content.about.title 
-  each contentParagraph in content.about.description 
+  h2= data.site.content.about.title 
+  each contentParagraph in data.site.content.about.description 
     p= contentParagraph
     //- img(src="/asset/image/courier.jpeg", alt="")
 

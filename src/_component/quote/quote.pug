@@ -1,21 +1,14 @@
--
-  var {content} = data.site 
-  var quoteTitle = content.quote.title 
-  var quoteDescription = content.quote.description
-
 .quote(
   id= formID
 )
   header.quote__header
-    h2.quote__title= quoteTitle 
-    p.quote__title= quoteDescription
+    h2.quote__title= formTitle 
+    p.quote__title= formDescription
 
   a.home__button(
-    href= `/#${goTo}`
-  ) formTitle
+    href= `/#${goTo.id}`
+  )= goTo.label
   
-  .quote__titlu 
-    h2 Get a Quote
   .quote__form(
     data-tf-widget= formID
     data-tf-iframe-props= formTitle 
