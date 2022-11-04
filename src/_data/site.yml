@@ -24,9 +24,21 @@ content:
     - fleet
     - services
     - quote
-  home:
-    title: Speed4Couriers
+  services:
     description:
+      - Same Day Courier Services
+      - European Same Day Courier
+      - Urgent Courier Service
+      - Emergency Courier
+      - Same Night Courier Service
+      - Time Critical Courier
+      - Over Night Dedicated
+      - International Courier
+      - Wait And Return Courier
+      - Dedicated Direct Drive Delivery
+      - Secure Courier Service
+      - Refrigerated Courier Service
+      - Exhibition and Event Courier
   about:
     title: We can move anything
     description:
