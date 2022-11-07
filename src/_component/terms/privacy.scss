@@ -1,13 +1,13 @@
 .terms {
   display: flex;
   flex-direction: column;
-  padding: 100px;
+  padding: 20px;
   font-family: monospace;
 }
 .privacy {
   display: flex;
   flex-direction: column;
-  padding: 100px;
+  padding: 20px;
   font-family: monospace;
 }
 
@@ -15,7 +15,7 @@ h2 {
   color: red;
 }
 h1 {
-  font-size: 85px;
+  font-size: 65px;
   display: flex;
   justify-content: center;
   color: lightblue;
@@ -42,4 +42,17 @@ span {
 }
 ul {
   font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .terms,
+  .privacy {
+    padding: 80px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .terms,
+  .privacy {
+    padding: 100px;
+  }
 }
