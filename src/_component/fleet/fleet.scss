@@ -10,9 +10,11 @@
     padding: 25px;
   }
 
-  // &__img {
-  //   display: flex;
-  // }
+  &__img {
+    display: flex;
+    // width: 500px;
+    // height: 300px;
+  }
 
   &__info {
     display: flex;

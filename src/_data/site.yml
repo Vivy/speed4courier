@@ -49,63 +49,72 @@ content:
     title: Please choose what vehicle size you need
     description: We also specialise in the movement of high value and fragile goods.
     vehicle:
-      - title: Small Van (SV)
+      - van: small van11.jpg
+        title: Small Van (SV)
         length: 120cm
         width: 100cm
         height: 100cm
         payload: 450kg
         description: Carries 1 Standard UK Pallet
 
-      - title: Short Wheel Based Van (SWB)
+      - van: Swb1.jpg
+        title: Short Wheel Based Van (SWB)
         length: 240cm
         width: 100cm
         height: 120cm
         payload: 800kg
         description: Carries 2 Standard UK Pallets
 
-      - title: Long Wheel Based Van (LWB)
+      - van: long.jpg
+        title: Long Wheel Based Van (LWB)
         length: 340cm
         width: 120cm
         height: 180cm
         payload: 1200kg
         description: Carries 3 Standard UK Pallets
 
-      - title: Extra-Long Wheel Based Van (XLWB)
+      - van: xlwb.jpg
+        title: Extra-Long Wheel Based Van (XLWB)
         length: 420cm
         width: 120cm
         height: 180cm
         payload: 1000kg
         description: Carries 4 Standard UK Pallets
 
-      - title: Luton Van
+      - van: luton.jpg
+        title: Luton Van
         length: 400cm
         width: 200cm
         height: 200cm
         payload: 1000kg
         description: Carries 6 Standard UK Pallets Box, Curtain and Tail Lift Options Available
 
-      - title: 7.5 Tonne (7.5T)
+      - van: 7.5.jpg
+        title: 7.5 Tonne (7.5T)
         length: 240cm
         width: 100cm
         height: 120cm
         payload: 800kg
         description: Carries 10 Standard UK Pallets Box, Curtain and Tail Lift Options Available
 
-      - title: 18 Tonne (18T)
+      - van: 18 t.jpg
+        title: 18 Tonne (18T)
         length: 700cm
         width: 240cm
         height: 250cm
         payload: 9000kg
         description: Carries 14 Standard UK Pallets Box, Curtain and Tail Lift Options Available
 
-      - title: 26 Tonne (26T)
+      - van: 26t.jpg
+        title: 26 Tonne (26T)
         length: 800cm
         width: 240cm
         height: 250cm
         payload: 15000kg
         description: Carries 16 Standard UK Pallets Box, Curtain and Tail Lift Options Available
 
-      - title: Artic
+      - van: artic1.jpg
+        title: Artic
         length: 1360cm
         width: 250cm
         height: 260cm
