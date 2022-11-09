@@ -22,7 +22,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 20px;
+    font-size: 10px;
   }
 
   &__text {
@@ -48,8 +48,11 @@
   }
 
   &__hero {
-    // display: flex;
-    // justify-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 20px;
   }
 }
 

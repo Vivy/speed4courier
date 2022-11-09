@@ -6,9 +6,10 @@
   padding: 50px;
   font-size: 17px;
   align-items: center;
-  background-image: url("/asset/image/road.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: gray;
+  // background-image: url("/asset/image/road.jpeg");
+  // background-repeat: no-repeat;
+  // background-size: cover;
 
   &__form {
     grid-column: 1/3;

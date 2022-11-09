@@ -45,6 +45,13 @@ content:
       - Founded in Manchester in 2020, Speed4courier has grown to become one of the north's leading Same Day couriers.
       - The group runs an extensive fleet of vans and wagons, with strong presence across the North's major towns & cities and the M62 corridor.
       - We have long standing relationships in place with many of the UK's leading transport  firms.
+    carousel:
+      - amazon.png
+      - ceva.png
+      - DHL.png
+      - nhs.png
+      - sonos.jpg
+      - xpo.jpg
   fleet:
     title: Please choose what vehicle size you need
     description: We also specialise in the movement of high value and fragile goods.

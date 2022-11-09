@@ -1,4 +1,14 @@
-document.querySelector(".title__name--last").textContent =
-  "Mega Developer uuu! :) :)";
-
-console.log("You are going to become a rockstar web developer!");
+document.addEventListener("DOMContentLoaded", function () {
+  const imageObserver = new IntersectionObserver((entries, imgObserver) => {
+    entries.forEach((entry) => {
+      const lazyImage = entry.target;
+      lazyImage.style.src = `url(${lazyImage.dataset.src})`;
+      lazyImage.classList.remove("smart-load");
+      imgObserver.unobserver(lazyImage);
+    })
+  })
+  const arr = document.querySelectorAll(".smart-load.css");
+  arr.forEach((v) => {
+    imageObserver.observe(v);
+  })
+})
