@@ -1,38 +1,23 @@
-- var serviceType = data.site.content.services.description
+- var { description } = data.site.content.services
 
 #services 
 .services
-  button(
-    type='button'
-  ) Service
-nav
-  ul
-    li
-      a Services
-        ul
-          li
-            a(href="#p4j1eU4x")= serviceType
-          //- li
-          //-   a(href="#p4j1eU4x") European Same Day Courier
-          //- li
-          //-   a(href="#p4j1eU4x") Urgent Courier Service
-          //- li
-          //-   a(href="#p4j1eU4x") Emergency Courier
-          //- li
-          //-   a(href="#p4j1eU4x") Same Night Courier Service
-          //- li
-          //-   a(href="#p4j1eU4x") Time Critical Courier
-          //- li
-          //-   a(href="#p4j1eU4x") Over Night Dedicated
-          //- li
-          //-   a(href="#p4j1eU4x") International Courier
-          //- li
-          //-   a(href="#p4j1eU4x") Wait And Return Courier
-          //- li
-          //-   a(href="#p4j1eU4x") Dedicated Direct Drive Delivery
-          //- li
-          //-   a(href="#p4j1eU4x") Secure Courier Service
-          //- li
-          //-   a(href="#p4j1eU4x") Refrigerated Courier Service
-          //- li
-          //-   a(href="#p4j1eU4x") Exhibition and Event Courier
+//- nav
+//-   a.services__link Services
+//-     nav.services__droplist
+//-       a.services__testbox(href="#p4j1eU4x")= description
+label.services__toggle Services
+  input.services__checkbox(type="checkbox" id="services" name="services" value="services")
+  nav.services__droplisttest
+    each text in description
+      a.service__item(href="#p4j1eU4x")= text 
+
+
+  //- div.services__dropdown
+//- nav
+//-   ul
+//-     li.services__item
+//-       a.services__primul Services
+//-       ul.services__droplist
+//-         li
+//-           a(href="#p4j1eU4x")= serviceType

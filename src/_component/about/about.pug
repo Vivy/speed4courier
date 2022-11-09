@@ -7,8 +7,10 @@
   h2 Our Customers! 
   .about__customer
     each customer in data.site.content.about.carousel
-      .about__image(
-        data-src=`${baseUrl}asset/image/carousel/${customer}`
-        src=`${baseUrl}asset/image/carousel/${customer}`
-        style=`--poza: url(${baseUrl}asset/image/carousel/${customer})`
+      img.about__image.inca-ceva(
+        data-sursa=`${baseUrl}asset/image/carousel/${customer}`
+        width="200"
       )
+        //- style=`--poza: url(${baseUrl}asset/image/carousel/${customer})`
+
+        //- src=`${baseUrl}asset/image/carousel/${customer}`

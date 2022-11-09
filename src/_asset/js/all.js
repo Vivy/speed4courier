@@ -2,12 +2,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const imageObserver = new IntersectionObserver((entries, imgObserver) => {
     entries.forEach((entry) => {
       const lazyImage = entry.target;
-      lazyImage.style.src = `url(${lazyImage.dataset.src})`;
-      lazyImage.classList.remove("smart-load");
-      imgObserver.unobserver(lazyImage);
+      lazyImage.src = lazyImage.dataset.sursa;
+      lazyImage.classList.remove("inca-ceva");
+      imgObserver.unobserve(lazyImage);
     })
   })
-  const arr = document.querySelectorAll(".smart-load.css");
+  const arr = document.querySelectorAll(".inca-ceva");
   arr.forEach((v) => {
     imageObserver.observe(v);
   })

@@ -19,7 +19,6 @@ form:
     formDescription: Get a fast and reliable same-day courier service
 content:
   contentKeyList:
-    - home
     - about
     - fleet
     - services
@@ -48,10 +47,10 @@ content:
     carousel:
       - amazon.png
       - ceva.png
-      - DHL.png
+      - dhl.png
       - nhs.png
-      - sonos.jpg
-      - xpo.jpg
+      - sonos.png
+      - xpo.png
   fleet:
     title: Please choose what vehicle size you need
     description: We also specialise in the movement of high value and fragile goods.
