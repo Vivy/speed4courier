@@ -17,8 +17,8 @@ nav {
     &:hover {
       background: #000;
 
-      & + .services__droplist {
-        display: flex;
+      & + .services__droplisttest {
+        display: grid;
       }
     }
   }
@@ -51,6 +51,9 @@ nav {
     font-size: 24px;
     &:hover {
       background-color: red;
+      & .services__droplisttest {
+        display: grid;
+      }
     }
   }
 

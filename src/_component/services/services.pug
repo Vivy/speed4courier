@@ -2,22 +2,9 @@
 
 #services 
 .services
-//- nav
-//-   a.services__link Services
-//-     nav.services__droplist
-//-       a.services__testbox(href="#p4j1eU4x")= description
+
 label.services__toggle Services
   input.services__checkbox(type="checkbox" id="services" name="services" value="services")
   nav.services__droplisttest
     each text in description
       a.service__item(href="#p4j1eU4x")= text 
-
-
-  //- div.services__dropdown
-//- nav
-//-   ul
-//-     li.services__item
-//-       a.services__primul Services
-//-       ul.services__droplist
-//-         li
-//-           a(href="#p4j1eU4x")= serviceType
