@@ -1,6 +1,12 @@
 nav.menu 
   each goTo in data.site.content.contentKeyList 
-    label.menu__link(
-      for=`super-${goTo}`
-      title=`navigation: ${goTo}`
-    )= goTo
+    if goTo.type === "dropdown" 
+      label.menu__link(
+        for=`super-${goTo.label}`
+        title=`navigation: ${goTo.label}`
+      )= goTo.label
+    else 
+      label.menu__link(
+        for=`super-${goTo.label}`
+        title=`navigation: ${goTo.label}`
+      )= goTo.label

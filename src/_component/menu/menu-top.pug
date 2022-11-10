@@ -1,9 +1,6 @@
 each goTo in data.site.content.contentKeyList 
   input.menu__controller(
     type="radio"
-    id=`super-${goTo}`
+    id=`super-${goTo.label}`
     name="work-stroke-work"
-    checked=goTo.checked
   )
-  label.menu__top( for=`super-${goTo}`)
-    h4=`${goTo}`

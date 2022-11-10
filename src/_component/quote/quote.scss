@@ -33,6 +33,19 @@
   }
 }
 
+.home__button {
+  display: flex;
+  width: 200px;
+  background-color: rgb(227, 148, 227);
+  line-height: 35px;
+  border: 1px solid gray;
+  border-radius: 45px;
+  justify-self: center;
+  text-decoration: none;
+  justify-content: center;
+  grid-column: 1/2;
+}
+
 @media screen and (min-width: 768px) {
   .quote__form {
     grid-column: 2/3;

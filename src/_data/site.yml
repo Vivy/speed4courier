@@ -21,11 +21,16 @@ form:
     formDescription: Get a fast and reliable same-day courier service
 content:
   contentKeyList:
-    - callback
-    - about
-    - fleet
-    - services
-    - quote
+    - type: link
+      label: callback
+    - type: link
+      label: about
+    - type: link
+      label: fleet
+    - type: dropdown
+      label: services
+    - type: link
+      label: quote
   services:
     description:
       - Same Day Courier Services
