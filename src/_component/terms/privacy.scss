@@ -3,12 +3,26 @@
   flex-direction: column;
   padding: 20px;
   font-family: monospace;
+
+  &__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    white-space: break-spaces;
+  }
 }
 .privacy {
   display: flex;
   flex-direction: column;
   padding: 20px;
   font-family: monospace;
+
+  &__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    white-space: break-spaces;
+  }
 }
 
 h2 {
@@ -33,12 +47,6 @@ span {
 }
 .divider {
   padding: 15px;
-}
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  white-space: break-spaces;
 }
 ul {
   font-size: 20px;
