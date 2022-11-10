@@ -6,11 +6,13 @@ form:
   top:
     formTitle: Speed4Courier
     formID: V1JRDgaa
+    quoteClass: callback
     goTo:
       label: Get a Quote
       id: p4j1eU4x
     formDescription: We can move anything for you, from a small packet to multiple pallets.
   bottom:
+    quoteClass: quote
     formTitle: Same Day Couriers
     formID: p4j1eU4x
     goTo:
@@ -19,6 +21,7 @@ form:
     formDescription: Get a fast and reliable same-day courier service
 content:
   contentKeyList:
+    - callback
     - about
     - fleet
     - services

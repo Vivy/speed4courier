@@ -4,15 +4,15 @@ include _component/quote/quote
 block awesome-content
 
   include _component/menu/menu-top
-  +quote( data.site.form.top )
+  .wrapper
+    +quote( data.site.form.top )
 
-  
 
-  include _component/fleet/fleet
-  include _component/services/services
-  include _component/about/about
+    include _component/fleet/fleet
+    include _component/services/services
+    include _component/about/about
 
-  +quote( data.site.form.bottom )
+    +quote( data.site.form.bottom )
   script(src="//embed.typeform.com/next/embed.js")
 
   include _component/terms/privacy

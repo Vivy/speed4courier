@@ -20,8 +20,6 @@ html {
 }
 
 body {
-  // background-image: url(#{$baseUrl}asset/image/become-a-web-developer-today.jpg);
-  // background-size: cover;
   font-family: "Inter", sans-serif;
   font-family: "Secular One", sans-serif;
 
@@ -60,8 +58,47 @@ h3 {
 
   @extend %h-common;
 }
+// h4 {
+//   font-size: 2rem;
+
+//   @extend %h-common;
+// }
 p {
   font-size: 1.6rem;
   line-height: 2.5rem;
   padding: 1rem 0;
 }
+
+.wrapper {
+  position: relative;
+}
+.callback,
+.about,
+.fleet,
+.services,
+.quote {
+  left: -3000px;
+  position: absolute;
+  transition: 300ms;
+}
+#super-about:checked ~ .wrapper .about {
+  left: 0;
+}
+#super-fleet:checked ~ .wrapper .fleet {
+  left: 0;
+}
+#super-callback:checked ~ .wrapper .callback {
+  left: 0;
+}
+#super-quote:checked ~ .wrapper .quote {
+  left: 0;
+}
+#super-services:checked ~ .wrapper .services {
+  left: 0;
+}
+
+// .privacy,
+// .terms {
+//   left: -500%;
+//   position: absolute;
+// }

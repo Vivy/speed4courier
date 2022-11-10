@@ -1,7 +1,8 @@
 mixin quote( config )
-  - var { formTitle, formID, goTo, formDescription } = config
+  - var { formTitle, formID, goTo, formDescription, quoteClass } = config
   .quote(
     id= formID
+    class= quoteClass
   )
     header.quote__header
       h2.quote__title= formTitle 
