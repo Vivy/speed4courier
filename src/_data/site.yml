@@ -25,13 +25,17 @@ content:
   contentKeyList:
     - type: link
       label: callback
+      icon: phone_callback
     - type: link
       label: about
+      icon: info
     - type: link
       label: fleet
+      icon: truck
     - type: dropdown
       label: services
     - type: link
+      icon: social
       label: quote
   services:
     description:

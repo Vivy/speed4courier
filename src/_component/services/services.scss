@@ -1,7 +1,7 @@
 nav {
   background: #efefef;
   margin: 0 auto;
-  width: 400px;
+  // width: 400px;
   font-size: large;
 }
 
@@ -48,7 +48,7 @@ nav {
   }
 
   &__toggle {
-    font-size: 24px;
+    font-size: 15px;
     &:hover {
       background-color: red;
       & .services__droplisttest {

@@ -2,6 +2,7 @@
   position: fixed;
   bottom: 0;
   right: 0;
+  padding: 20px;
 
   display: flex;
   flex-direction: column;
@@ -16,15 +17,18 @@
   &__link {
     padding: 1rem;
     font-size: 1.5rem;
-    display: inline;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 10px;
+    text-transform: capitalize;
+    border-radius: 20%;
     background-color: lightcoral;
     border: 1px dashed lightsteelblue;
   }
 
   &__controller {
     position: relative;
-    // z-index: 12312313;
-    // display: none;
 
     &:nth-child(1):checked {
       & ~ .content {
