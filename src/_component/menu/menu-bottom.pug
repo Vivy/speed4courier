@@ -4,8 +4,8 @@ nav.menu
       label.menu__link(
         for=`super-${goTo.label}`
         title=`navigation: ${goTo.label}`
-      )= goTo.label
-      include ../services/services
+      )
+        include ../services/services
     else 
       label.menu__link(
         for=`super-${goTo.label}`

@@ -6,13 +6,13 @@ form:
   top:
     formTitle: Speed4Courier
     formID: V1JRDgaa
-    quoteClass: callback
+    quoteClass: form__callback
     goTo:
       label: Get a Quote
       id: p4j1eU4x
     formDescription: We can move anything for you, from a small packet to multiple pallets.
   bottom:
-    quoteClass: quote
+    quoteClass: form__quote
     formTitle: Same Day Couriers
     formID: p4j1eU4x
     goTo:
