@@ -10,12 +10,14 @@ form:
     goTo:
       label: Get a Quote
       id: p4j1eU4x
+      goToForm: super-quote
     formDescription: We can move anything for you, from a small packet to multiple pallets.
   bottom:
-    quoteClass: form__quote
     formTitle: Same Day Couriers
     formID: p4j1eU4x
+    quoteClass: form__quote
     goTo:
+      goToForm: super-callback
       label: Request a Callback
       id: V1JRDgaa
     formDescription: Get a fast and reliable same-day courier service

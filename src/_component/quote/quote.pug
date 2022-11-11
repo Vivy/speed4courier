@@ -8,8 +8,8 @@ mixin quote( config )
       h2.quote__title= formTitle 
       p.quote__title= formDescription
 
-    a.home__button(
-      href= `/#${goTo.id}`
+    label.home__button(
+      for= goTo.goToForm
     )= goTo.label
     
     .quote__form(

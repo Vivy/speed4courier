@@ -8,7 +8,7 @@
 .fleet
   h2.fleet__supertitle=contentTitle 
   p.fleet__superdescription=contentDescription
-  a.fleet__anchor(href= '#p4j1eU4x') Book Online 
+  label.fleet__anchor(for= 'super-quote') Book Online 
 
   h3.fleet__title= fleetTitle
   p.fleet__text= fleetDimensions
@@ -19,7 +19,7 @@
           img.fleet__img.inca-ceva(
             data-sursa=`${baseUrl}asset/image/van/${car.van}`
           )
-          a.fleet__anchor(href='#p4j1eU4x') Book Now 
+          label.fleet__anchor(for='super-quote') Book Now 
       .fleet__info
         h3= car.title
         .fleet__text
