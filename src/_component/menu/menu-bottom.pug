@@ -1,4 +1,3 @@
-//- include _component/services/services
 nav.menu 
   each goTo in data.site.content.contentKeyList 
     if goTo.type === "dropdown" 
@@ -6,6 +5,7 @@ nav.menu
         for=`super-${goTo.label}`
         title=`navigation: ${goTo.label}`
       )= goTo.label
+      include ../services/services
     else 
       label.menu__link(
         for=`super-${goTo.label}`

@@ -1,0 +1,307 @@
+$icomoon-font-family: "speed4courier" !default;
+$icomoon-font-path: "fonts" !default;
+
+$icon-airplane: "\e900";
+$icon-travel: "\e900";
+$icon-flight: "\e900";
+$icon-plane: "\e900";
+$icon-transport1: "\e900";
+$icon-fly: "\e900";
+$icon-vacation: "\e900";
+$icon-truck: "\e901";
+$icon-transit: "\e901";
+$icon-transport: "\e901";
+$icon-delivery: "\e901";
+$icon-vehicle: "\e901";
+$icon-info: "\e902";
+$icon-information: "\e902";
+$icon-mobile: "\e903";
+$icon-cell-phone: "\e903";
+$icon-handheld: "\e903";
+$icon-tablet: "\e903";
+$icon-phablet: "\e903";
+$icon-mail2: "\e904";
+$icon-contact3: "\e904";
+$icon-support2: "\e904";
+$icon-newsletter1: "\e904";
+$icon-letter2: "\e904";
+$icon-email2: "\e904";
+$icon-envelop2: "\e904";
+$icon-social1: "\e904";
+$icon-envelop1: "\e905";
+$icon-mail1: "\e905";
+$icon-email1: "\e905";
+$icon-contact2: "\e905";
+$icon-letter1: "\e905";
+$icon-mail: "\e906";
+$icon-contact1: "\e906";
+$icon-support1: "\e906";
+$icon-newsletter: "\e906";
+$icon-letter: "\e906";
+$icon-email: "\e906";
+$icon-envelop: "\e906";
+$icon-social: "\e906";
+$icon-phone: "\e907";
+$icon-telephone: "\e907";
+$icon-contact: "\e907";
+$icon-support: "\e907";
+$icon-call: "\e907";
+$icon-phone_callback: "\e908";
+
+@font-face {
+  font-family: "speed4courier";
+  src: url("#{$baseUrl}asset/font/speed4courier.ttf?zd4i6s") format("truetype"),
+    url("#{$baseUrl}asset/font/speed4courier.woff?zd4i6s") format("woff"),
+    url("#{$baseUrl}asset/font/speed4courier.svg?zd4i6s#speed4courier")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "speed4courier" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-airplane {
+  &:before {
+    content: $icon-airplane;
+  }
+}
+.icon-travel {
+  &:before {
+    content: $icon-travel;
+  }
+}
+.icon-flight {
+  &:before {
+    content: $icon-flight;
+  }
+}
+.icon-plane {
+  &:before {
+    content: $icon-plane;
+  }
+}
+.icon-transport1 {
+  &:before {
+    content: $icon-transport1;
+  }
+}
+.icon-fly {
+  &:before {
+    content: $icon-fly;
+  }
+}
+.icon-vacation {
+  &:before {
+    content: $icon-vacation;
+  }
+}
+.icon-truck {
+  &:before {
+    content: $icon-truck;
+  }
+}
+.icon-transit {
+  &:before {
+    content: $icon-transit;
+  }
+}
+.icon-transport {
+  &:before {
+    content: $icon-transport;
+  }
+}
+.icon-delivery {
+  &:before {
+    content: $icon-delivery;
+  }
+}
+.icon-vehicle {
+  &:before {
+    content: $icon-vehicle;
+  }
+}
+.icon-info {
+  &:before {
+    content: $icon-info;
+  }
+}
+.icon-information {
+  &:before {
+    content: $icon-information;
+  }
+}
+.icon-mobile {
+  &:before {
+    content: $icon-mobile;
+  }
+}
+.icon-cell-phone {
+  &:before {
+    content: $icon-cell-phone;
+  }
+}
+.icon-handheld {
+  &:before {
+    content: $icon-handheld;
+  }
+}
+.icon-tablet {
+  &:before {
+    content: $icon-tablet;
+  }
+}
+.icon-phablet {
+  &:before {
+    content: $icon-phablet;
+  }
+}
+.icon-mail2 {
+  &:before {
+    content: $icon-mail2;
+  }
+}
+.icon-contact3 {
+  &:before {
+    content: $icon-contact3;
+  }
+}
+.icon-support2 {
+  &:before {
+    content: $icon-support2;
+  }
+}
+.icon-newsletter1 {
+  &:before {
+    content: $icon-newsletter1;
+  }
+}
+.icon-letter2 {
+  &:before {
+    content: $icon-letter2;
+  }
+}
+.icon-email2 {
+  &:before {
+    content: $icon-email2;
+  }
+}
+.icon-envelop2 {
+  &:before {
+    content: $icon-envelop2;
+  }
+}
+.icon-social1 {
+  &:before {
+    content: $icon-social1;
+  }
+}
+.icon-envelop1 {
+  &:before {
+    content: $icon-envelop1;
+  }
+}
+.icon-mail1 {
+  &:before {
+    content: $icon-mail1;
+  }
+}
+.icon-email1 {
+  &:before {
+    content: $icon-email1;
+  }
+}
+.icon-contact2 {
+  &:before {
+    content: $icon-contact2;
+  }
+}
+.icon-letter1 {
+  &:before {
+    content: $icon-letter1;
+  }
+}
+.icon-mail {
+  &:before {
+    content: $icon-mail;
+  }
+}
+.icon-contact1 {
+  &:before {
+    content: $icon-contact1;
+  }
+}
+.icon-support1 {
+  &:before {
+    content: $icon-support1;
+  }
+}
+.icon-newsletter {
+  &:before {
+    content: $icon-newsletter;
+  }
+}
+.icon-letter {
+  &:before {
+    content: $icon-letter;
+  }
+}
+.icon-email {
+  &:before {
+    content: $icon-email;
+  }
+}
+.icon-envelop {
+  &:before {
+    content: $icon-envelop;
+  }
+}
+.icon-social {
+  &:before {
+    content: $icon-social;
+  }
+}
+.icon-phone {
+  &:before {
+    content: $icon-phone;
+  }
+}
+.icon-telephone {
+  &:before {
+    content: $icon-telephone;
+  }
+}
+.icon-contact {
+  &:before {
+    content: $icon-contact;
+  }
+}
+.icon-support {
+  &:before {
+    content: $icon-support;
+  }
+}
+.icon-call {
+  &:before {
+    content: $icon-call;
+  }
+}
+.icon-phone_callback {
+  &:before {
+    content: $icon-phone_callback;
+  }
+}

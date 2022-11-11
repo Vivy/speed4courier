@@ -75,6 +75,7 @@ nav {
 @media screen and (min-width: 768px) {
   .services__droplisttest {
     grid-template-columns: repeat(2, 1fr);
+    right: 0;
   }
 }
 
