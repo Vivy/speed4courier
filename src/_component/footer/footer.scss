@@ -1,44 +1,32 @@
-@keyframes pulse {
-  from {
-    transform: scale3d(1, 1, 1);
-  }
-
-  50% {
-    transform: scale3d(1.05, 1.05, 1.05);
-  }
-
-  to {
-    transform: scale3d(1, 1, 1);
-  }
-}
-.pulse {
-  animation-name: pulse;
-  animation-timing-function: ease-in-out;
-}
 .footer {
-  display: grid;
+  display: flex;
   position: fixed;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
   bottom: 0;
   width: 100%;
   background-color: lightgreen;
-  border: 10px solid darkblue;
+  border: 1px solid darkblue;
   justify-content: center;
   align-items: center;
-  font-size: medium;
+  // font-size: medium;
   grid-template-columns: 1fr 1fr;
   &__link {
     grid-column: 2/3;
     grid-row: 1/3;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-self: center;
-    gap: 10px;
+    gap: 20px;
     text-decoration: none;
   }
   &__img {
     grid-column: 1/3;
     grid-row: 1/3;
-    width: 50%;
+    width: 25%;
     display: flex;
     justify-content: center;
   }
@@ -51,12 +39,15 @@
     }
   }
 }
-// .pulse {
-//   &:hover {
-//     background-color: red;
-//     animation-duration: 5s;
-//   }
-// }
+
 a {
   text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+  }
 }
