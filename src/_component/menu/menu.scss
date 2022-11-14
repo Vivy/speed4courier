@@ -46,9 +46,9 @@
     }
     &:last-child {
       animation: flash 4s infinite;
-    }
-    &:hover {
-      animation: pulse 1s infinite;
+      &:hover {
+        animation: pulse 1s infinite;
+      }
     }
   }
 
