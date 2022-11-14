@@ -13,8 +13,7 @@
     height: 230px;
     width: 100%;
     flex-wrap: wrap;
-    background-color: white;
-    border: 1px solid brown;
+    border: 1px solid lightblue;
     padding: 10px;
     gap: 5px;
     justify-content: center;
@@ -24,6 +23,7 @@
   &__image {
     background-image: var(--poza);
     height: auto;
+    background-color: transparent;
     vertical-align: middle;
     background-repeat: no-repeat;
     background-size: contain;

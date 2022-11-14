@@ -2,7 +2,7 @@
   display: grid;
   justify-content: space-evenly;
   justify-items: center;
-  background-color: azure;
+  padding-bottom: 130px;
 
   &__grid {
     display: grid;
@@ -12,8 +12,6 @@
 
   &__img {
     display: flex;
-    // width: 500px;
-    // height: 300px;
   }
 
   &__info {

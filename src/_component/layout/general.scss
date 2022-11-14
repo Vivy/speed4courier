@@ -61,6 +61,7 @@ p {
 
 .wrapper {
   position: relative;
+  height: 100%;
 }
 .form__callback,
 .about,
@@ -68,14 +69,17 @@ p {
 .services,
 .form__quote {
   left: -3000px;
-  position: absolute;
+  position: fixed;
   transition: 300ms;
   width: 100%;
-  // height: 100%;
+  height: calc(100vh - 85px);
+  top: 85px;
+  padding: 2rem 1rem;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 #super-about:checked ~ .wrapper .about {
   left: 0;
-  // height: 100%vh;
 }
 #super-fleet:checked ~ .wrapper .fleet {
   left: 0;

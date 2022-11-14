@@ -58,3 +58,8 @@
     grid-row: 1/3;
   }
 }
+.form__callback,
+.form__quote {
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
