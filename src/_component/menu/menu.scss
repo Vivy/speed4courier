@@ -45,7 +45,10 @@
       background-color: red;
     }
     &:last-child {
-      animation: pulse 2s infinite;
+      animation: flash 4s infinite;
+    }
+    &:hover {
+      animation: pulse 1s infinite;
     }
   }
 

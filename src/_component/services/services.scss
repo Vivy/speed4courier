@@ -42,9 +42,12 @@ nav {
 
     position: absolute;
     width: 650px;
-    // flex-wrap: wrap;
     gap: 5px;
+    // top: 66px;
     padding: 10px;
+    // right: 0;
+    // top: 0;
+    // overflow: auto;
   }
 
   &__toggle {
