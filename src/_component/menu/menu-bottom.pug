@@ -3,13 +3,13 @@ nav.menu
     if goTo.type === "dropdown" 
       label.menu__link(
         for=`super-${goTo.label}`
-        title=`navigation: ${goTo.label}`
+        title=`Go To: ${goTo.label}`
       )
         include ../services/services
         .icon-plane
     else 
       label.menu__link(
         for=`super-${goTo.label}`
-        title=`navigation: ${goTo.label}`
+        title=`Go To: ${goTo.label}`
       )= goTo.label
         div(class=`icon-${goTo.icon}`)

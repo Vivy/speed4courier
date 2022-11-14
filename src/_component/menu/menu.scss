@@ -1,3 +1,16 @@
+@keyframes pulse {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
 .menu {
   position: fixed;
   bottom: 0;
@@ -15,20 +28,29 @@
   }
 
   &__link {
-    padding: 1rem;
-    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
     display: flex;
+    min-width: 140px;
+    justify-content: center;
     flex-direction: row-reverse;
     align-items: center;
     gap: 10px;
     text-transform: capitalize;
-    border-radius: 20%;
+    border-radius: 5rem;
     background-color: lightcoral;
-    border: 1px dashed lightsteelblue;
+    border: 1px solid lightsteelblue;
+    &:hover {
+      background-color: red;
+    }
+    &:last-child {
+      animation: pulse 2s infinite;
+    }
   }
 
   &__controller {
     position: relative;
+    display: none;
 
     &:nth-child(1):checked {
       & ~ .content {

@@ -75,6 +75,7 @@ p {
 }
 #super-about:checked ~ .wrapper .about {
   left: 0;
+  // height: 100%vh;
 }
 #super-fleet:checked ~ .wrapper .fleet {
   left: 0;
@@ -99,5 +100,6 @@ p {
   &:target {
     left: 0;
     right: 0;
+    height: 100vh;
   }
 }
