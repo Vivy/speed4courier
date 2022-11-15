@@ -7,12 +7,11 @@
   align-self: center;
   justify-self: center;
   bottom: 0;
+  border: 1px solid;
   width: 100%;
-  background-color: lightgreen;
-  border: 1px solid darkblue;
+  background-color: #d71313;
   justify-content: center;
   align-items: center;
-  // font-size: medium;
   grid-template-columns: 1fr 1fr;
   &__link {
     grid-column: 2/3;

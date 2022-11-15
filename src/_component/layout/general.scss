@@ -75,20 +75,27 @@ p {
   // height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
+  height: 100vh;
 }
 #super-about:checked ~ .wrapper .about {
   left: 0;
-  top: 85px;
+  // top: 0;
 }
 #super-fleet:checked ~ .wrapper .fleet {
   left: 0;
-  top: 85px;
+  // top: 85px;
 }
 #super-callback:checked ~ .wrapper .form__callback {
   left: 0;
+  background-image: url("/asset/image/courier1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #super-quote:checked ~ .wrapper .form__quote {
   left: 0;
+  background-image: url("/asset/image/courier1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #super-services:checked ~ .wrapper .services {
   left: 0;
@@ -99,7 +106,7 @@ p {
   position: fixed;
   left: -500%;
   right: 500%;
-  background-color: teal;
+  background-color: white;
 
   &:target {
     left: 0;
@@ -116,8 +123,27 @@ p {
   .form__quote {
     height: 95%;
     padding: 2rem 1rem;
+    height: calc(100vh - 85px);
+  }
+  #super-about:checked ~ .wrapper .about {
+    left: 0;
+    top: 85px;
+  }
+  #super-fleet:checked ~ .wrapper .fleet {
+    left: 0;
+    top: 85px;
+  }
+  #super-callback:checked ~ .wrapper .form__callback {
+    left: 0;
+  }
+  #super-quote:checked ~ .wrapper .form__quote {
+    left: 0;
+  }
+  #super-services:checked ~ .wrapper .services {
+    left: 0;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .form__callback,
   .about,
