@@ -3,7 +3,8 @@
   align-items: center;
   flex-direction: column;
   color: red;
-  background-image: url("/asset/image/courier.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/asset/image/courier.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 

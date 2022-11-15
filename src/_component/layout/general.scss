@@ -83,17 +83,19 @@ p {
 }
 #super-fleet:checked ~ .wrapper .fleet {
   left: 0;
-  // top: 85px;
 }
 #super-callback:checked ~ .wrapper .form__callback {
   left: 0;
-  background-image: url("/asset/image/courier1.jpeg");
+  // background-image: url("/asset/image/courier1.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/asset/image/courier1.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 #super-quote:checked ~ .wrapper .form__quote {
   left: 0;
-  background-image: url("/asset/image/courier1.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/asset/image/courier1.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
