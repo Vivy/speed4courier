@@ -18,6 +18,10 @@
     display: flex;
   }
 
+  &__table tr {
+    background-color: white;
+  }
+
   &__info {
     display: flex;
     flex-direction: column;
@@ -43,7 +47,7 @@
     border-radius: 35px;
     justify-content: center;
     text-decoration: none;
-    background-color: #d71313;
+    background-color: white;
     margin-inline: auto;
     font-size: 13px;
     cursor: pointer;

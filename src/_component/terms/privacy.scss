@@ -26,7 +26,7 @@
 }
 
 h2 {
-  color: red;
+  color: white;
 }
 h1 {
   font-size: 65px;
@@ -37,6 +37,7 @@ h1 {
 }
 p {
   font-size: 20px;
+  color: white;
 }
 span {
   display: inline-block;
@@ -65,7 +66,7 @@ ul {
   }
 }
 .privacy__close {
-  font-size: large;
+  font-size: xx-large;
   display: flex;
   position: fixed;
   justify-content: flex-end;

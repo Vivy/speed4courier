@@ -1,7 +1,6 @@
 nav {
   background: #efefef;
   margin: 0 auto;
-  // width: 400px;
   font-size: large;
 }
 
@@ -39,17 +38,16 @@ nav {
 
   &__droplisttest {
     display: none;
+    background-color: rgb(205, 231, 38);
 
     position: absolute;
+    border-radius: 40px;
     width: 300px;
     gap: 5px;
     padding: 10px;
     right: 65px;
     bottom: 74px;
     // color: white;
-    background-image: url("/asset/image/road1.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
     &:checked {
       display: none;
     }
@@ -75,6 +73,7 @@ nav {
   text-decoration: none;
   border: 1px solid;
   text-align: center;
+  border-radius: 15px;
   &:hover {
     color: red;
     cursor: pointer;
