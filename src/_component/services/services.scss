@@ -14,7 +14,7 @@ nav {
     padding: 10px 20px;
 
     &:hover {
-      background: #000;
+      background: #1687a7;
 
       & + .services__droplisttest {
         display: grid;
@@ -38,7 +38,7 @@ nav {
 
   &__droplisttest {
     display: none;
-    background-color: rgb(205, 231, 38);
+    background-color: #1687a7;
 
     position: absolute;
     border-radius: 40px;
@@ -56,7 +56,7 @@ nav {
   &__toggle {
     font-size: 15px;
     &:hover {
-      background-color: red;
+      background-color: #1687a7;
       & .services__droplisttest {
         display: grid;
       }
@@ -71,11 +71,12 @@ nav {
 
 .service__item {
   text-decoration: none;
-  border: 1px solid;
+  // border: 1px solid white;
   text-align: center;
   border-radius: 15px;
+  background-color: white;
   &:hover {
-    color: red;
+    color: #dd0a35;
     cursor: pointer;
   }
 }

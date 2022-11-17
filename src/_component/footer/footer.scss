@@ -10,7 +10,7 @@
   bottom: 0;
   color: white;
   width: 100%;
-  background-color: #d71313;
+  background-color: #dd0a35;
   justify-content: center;
   align-items: center;
   grid-template-columns: 1fr 1fr;
@@ -22,6 +22,14 @@
     justify-self: center;
     gap: 20px;
     text-decoration: none;
+  }
+  &__privacy,
+  &__terms,
+  &__contact,
+  &__call {
+    &:hover {
+      color: #1687a7;
+    }
   }
   &__contact {
     &::after {
