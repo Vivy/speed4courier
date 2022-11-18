@@ -28,11 +28,6 @@
     display: none;
   }
 
-  // &__logo {
-  //   display: none;
-  //   height: 82px;
-  // }
-
   &__link {
     padding: 1rem 2rem;
     font-size: 1.6rem;
@@ -92,12 +87,8 @@
     &__logo {
       height: 60px;
       display: flex;
-      // justify-items: auto;
     }
   }
-  // .menu__link {
-  //   display: none;
-  // }
   .menu__top {
     display: flex;
   }
@@ -113,9 +104,6 @@
   .menu__top {
     display: flex;
   }
-  // .menu__link {
-  //   display: none;
-  // }
   .menu__controller {
     display: none;
   }
