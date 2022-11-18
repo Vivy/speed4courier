@@ -48,11 +48,6 @@ h3 {
 
   @extend %h-common;
 }
-// h4 {
-//   font-size: 2rem;
-
-//   @extend %h-common;
-// }
 p {
   font-size: 1.6rem;
   line-height: 2.5rem;
@@ -72,21 +67,19 @@ p {
   transition: 300ms;
   width: 100%;
   padding: 2rem 1rem;
-  // height: 100%;
   overflow-y: auto;
   overflow-x: hidden;
-  height: 100vh;
+  height: calc(100vh - 35px);
 }
 #super-about:checked ~ .wrapper .about {
   left: 0;
-  // top: 0;
 }
 #super-fleet:checked ~ .wrapper .fleet {
   left: 0;
 }
 #super-callback:checked ~ .wrapper .form__callback {
   left: 0;
-  // background-image: url("/asset/image/courier1.jpeg");
+  gap: 2rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/asset/image/courier1.jpeg");
   background-repeat: no-repeat;
@@ -94,6 +87,7 @@ p {
 }
 #super-quote:checked ~ .wrapper .form__quote {
   left: 0;
+  gap: 2rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/asset/image/courier1.jpeg");
   background-repeat: no-repeat;
@@ -123,9 +117,9 @@ p {
   .fleet,
   .services,
   .form__quote {
-    height: 95%;
+    // height: 95%;
     padding: 2rem 1rem;
-    height: calc(100vh - 85px);
+    // height: calc(100vh - 85px);
   }
   #super-about:checked ~ .wrapper .about {
     left: 0;
@@ -152,7 +146,6 @@ p {
   .fleet,
   .services,
   .form__quote {
-    height: calc(100vh - 85px);
     padding: 2rem 1rem;
   }
 }

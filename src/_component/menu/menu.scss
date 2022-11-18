@@ -16,7 +16,10 @@
   bottom: 0;
   right: 0;
   padding: 20px;
-  background-color: #dd0a35;
+  position: absolute;
+  gap: 5px;
+  z-index: 1;
+  background-color: transparent;
 
   display: flex;
   flex-direction: column;
@@ -84,6 +87,7 @@
     left: 0;
     justify-content: space-around;
     flex-direction: row;
+    background-color: #dd0a35;
     &__logo {
       height: 60px;
       display: flex;
