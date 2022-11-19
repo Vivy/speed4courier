@@ -41,7 +41,7 @@ nav {
     background-color: #1687a7;
 
     position: absolute;
-    border-radius: 40px;
+    border-radius: 16px;
     width: 300px;
     gap: 10px;
     padding: 10px;
@@ -50,6 +50,13 @@ nav {
     // color: white;
     &:checked {
       display: none;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      background-color: transparent;
+      inset: -48px 174px -8px 22px;
     }
   }
 
@@ -86,7 +93,7 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     // right: 0;
     width: 650px;
-    top: 55px;
+    top: 66px;
     position: absolute;
     height: 250px;
     // overflow: auto;

@@ -14,13 +14,11 @@
 
   &__header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     align-self: center;
     color: white;
     gap: 2rem;
     h2,
     p {
-      grid-column: 2/3;
       width: 400px;
       align-self: center;
     }
@@ -71,6 +69,13 @@
 }
 
 @media screen and (min-width: 768px) {
+  h2,
+  p {
+    grid-column: 2/3;
+  }
+  .quote__header {
+    grid-template-columns: 1fr 1fr;
+  }
   // .quote__form {
   //   grid-column: 2/3;
   //   grid-row: 1/3;

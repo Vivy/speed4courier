@@ -13,9 +13,11 @@ html(lang="en")
       link(rel="stylesheet" href=`${embedPath}` embed)
 
   body      
-    .content
+    .content  
       //- img(src="asset/image/wharehouse1.jpeg", alt="")
       block awesome-content
+
+    include ../menu/menu-bottom
 
     if config.entry.css.external
       link(rel="stylesheet", href=`${baseUrl}style.css`)
