@@ -12,3 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
     imageObserver.observe(v);
   })
 })
+
+document.querySelectorAll('input[type="radio"]').forEach((element) => {
+  element.addEventListener("change", () => {
+    document.querySelector("#services").checked = false
+  })
+})
