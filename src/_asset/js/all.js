@@ -18,3 +18,15 @@ document.querySelectorAll('input[type="radio"]').forEach((element) => {
     document.querySelector("#services").checked = false
   })
 })
+
+let loadForm = false;
+const callMeOnMove = () => {
+  if (!loadForm) {
+    loadForm = true;
+    document.removeEventListener("mousemove", callMeOnMove)
+
+    const quoteFormular = document.querySelector("#quote-formular")
+    quoteFormular.src = quoteFormular.dataset.src
+  }
+}
+document.addEventListener("mousemove", callMeOnMove)
