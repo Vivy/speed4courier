@@ -1,7 +1,7 @@
 .menu {
   position: fixed;
   bottom: 0;
-  right: 0;
+  right: -20px;
   padding: 20px;
   // position: absolute;
   gap: 5px;
@@ -20,9 +20,9 @@
 
   &__link {
     padding: 1rem 2rem;
-    font-size: 1.6rem;
+    font-size: 0.8rem;
     display: flex;
-    min-width: 140px;
+    min-width: 90px;
     justify-content: center;
     flex-direction: row-reverse;
     align-items: center;
@@ -79,6 +79,10 @@
     &__logo {
       height: 60px;
       display: flex;
+    }
+    &__link {
+      min-width: 140px;
+      font-size: 1.6rem;
     }
   }
   .menu__top {

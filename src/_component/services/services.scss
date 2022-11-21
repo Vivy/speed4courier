@@ -47,7 +47,6 @@ nav {
     padding: 10px;
     right: 65px;
     bottom: 74px;
-    // color: white;
     &:checked {
       display: none;
     }
@@ -91,12 +90,10 @@ nav {
 @media screen and (min-width: 768px) {
   .services__droplisttest {
     grid-template-columns: repeat(2, 1fr);
-    // right: 0;
     width: 650px;
     top: 66px;
     position: absolute;
     height: 250px;
-    // overflow: auto;
     overflow-y: hidden;
   }
 }
