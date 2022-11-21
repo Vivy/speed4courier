@@ -50,13 +50,6 @@ nav {
     &:checked {
       display: none;
     }
-
-    &::after {
-      content: "";
-      position: absolute;
-      background-color: transparent;
-      inset: -48px 174px -8px 22px;
-    }
   }
 
   &__toggle {
@@ -101,5 +94,12 @@ nav {
 @media screen and (min-width: 1280px) {
   .services__droplisttest {
     grid-template-columns: repeat(4, 1fr);
+
+    &::after {
+      content: "";
+      position: absolute;
+      background-color: transparent;
+      inset: -48px 174px -8px 22px;
+    }
   }
 }
