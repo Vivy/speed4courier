@@ -1,17 +1,23 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const imageObserver = new IntersectionObserver((entries, imgObserver) => {
-    entries.forEach((entry) => {
-      const lazyImage = entry.target;
-      lazyImage.src = lazyImage.dataset.sursa;
-      lazyImage.classList.remove("inca-ceva");
-      imgObserver.unobserve(lazyImage);
-    })
-  })
-  const arr = document.querySelectorAll(".inca-ceva");
-  arr.forEach((v) => {
-    imageObserver.observe(v);
-  })
-})
+// document.addEventListener("DOMContentLoaded", function () {
+//   const imageObserver = new IntersectionObserver((entries, imgObserver) => {
+//     // console.log(entries, imgObserver)
+//     entries.forEach((entry) => {
+//       console.log(entry)
+//       console.log(entry.target.dataset.sursa)
+//       if (entry.isVisible) {
+//         const lazyImage = entry.target;
+//         lazyImage.src = lazyImage.dataset.sursa;
+//         lazyImage.classList.remove("inca-ceva");
+//         imgObserver.unobserve(lazyImage);
+
+//       }
+//     })
+//   })
+//   const arr = document.querySelectorAll(".inca-ceva");
+//   arr.forEach((v) => {
+//     imageObserver.observe(v);
+//   })
+// })
 
 document.querySelectorAll('input[type="radio"]').forEach((element) => {
   element.addEventListener("change", () => {

@@ -8,6 +8,7 @@
   .about__customer
     each customer in data.site.content.about.carousel
       img.about__image.inca-ceva(
-        data-sursa=`${baseUrl}asset/image/carousel/${customer}`
+        loading="lazy"
+        src=`${baseUrl}asset/image/carousel/${customer}`
         width="200"
       )

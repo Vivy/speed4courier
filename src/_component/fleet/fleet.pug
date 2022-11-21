@@ -17,7 +17,8 @@
     each car in data.site.content.fleet.vehicle
       .fleet__hero
           img.fleet__img.inca-ceva(
-            data-sursa=`${baseUrl}asset/image/van/${car.van}`
+            loading="lazy"
+            src=`${baseUrl}asset/image/van/${car.van}`
           )
           label.fleet__anchor(for='super-quote') Book Now 
       .fleet__info
